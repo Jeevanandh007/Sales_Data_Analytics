@@ -33,3 +33,4 @@ import sqlite3
 conn =sqlite3.connect('database.db')
 
 df_clean_columns_rows.to_sql('customer_orders_table', conn, if_exists='replace', index=False)
+
